@@ -178,3 +178,18 @@
       playPauseBTNl.innerHTML = '<ion-icon name="play-outline"></ion-icon>';
     }
   }
+
+ var audiop = document.getElementById('audiop');
+  var playPauseBTNp = document.getElementById('playPauseBTNp');
+  var count = 0;
+  function playPausep() {
+    if (count == 0) {
+      count = 1;
+      audiop.play();
+      playPauseBTNp.innerHTML = '<ion-icon name="pause-outline"></ion-icon>';
+    } else {
+      count = 0;
+      audiop.pause();
+      playPauseBTNp.innerHTML = '<ion-icon name="play-outline"></ion-icon>';
+    }
+  }
