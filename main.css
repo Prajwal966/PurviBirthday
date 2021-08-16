@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Kaushan+Script&family=Poppins:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.bg {
+  background-color: #Eeb4ff;
+}
+
+.pg {
+  font-family: "Sacramento", cursive;
+  color: #581845;
+  font-size: 200px;
+  -webkit-text-stroke: 1px #ffffe0;
+  -webkit-text-fill-color: #581845;
+}
+
+.space {
+  margin: 100px 0px;
+}
+
+.carousel-item {
+  height: 32rem;
+}
+
+main {
+  padding-bottom: 100px;
+}
+
+.main {
+  padding: 0 70px 100px 70px;
+}
+
+.img-fluid {
+  height: 100px;
+}
+
+.heads {
+  font-family: 'Pacifico', cursive;
+  font-size: 45px;
+}
+
+.card-text {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+}
+
+.names {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 40px;
+}
+
+.img-thumbnail {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.row {
+  padding: 10px;
+  margin: 10px;
+}
+
+iframe {
+  width: 100%;
+  height: 500px;
+}
+.music{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.title{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 2em;
+  color: black;
+  display: inline-flex;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.btn{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.btn span{
+  position: relative;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #777;
+  cursor: pointer;
+  box-shadow: inset 0 -5px 5px rgba(0, 0, 0, 0.1),
+              0 5px 10px rgba(0, 0, 0, 0.1),
+              0 10px 15px rgba(0, 0, 0, 0.1);
+}
+.btn span:active{
+  color: #ff669a;
+  box-shadow: inset 0 -7px 5px rgba(0, 0, 0, 0.025),
+              inset 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+.btn span .playPause{
+  width: 100px;
+  height: 100px;
+}
+ion-icon{
+  font-size: 3rem;
+}
+@media only screen and (max-width:768px) {
+  .carousel-item {
+    height: 13rem;
+  }
+
+  .pg {
+    font-size: 40px;
+  }
+
+  main {
+    padding-bottom: 40px;
+  }
+
+  .main {
+    padding: 0 30px 40px 30px;
+  }
+
+  .header {
+    padding: 0 30px 40px 30px;
+  }
+
+  [class*="col-"] {
+    width: 100%;
+  }
+
+  .col-md-5 {
+    padding: 20px 0;
+  }
+
+  .heads {
+    font-size: 25px;
+  }
+
+  .card-text {
+    font-size: 15px;
+  }
+
+  .names {
+    font-size: 30px;
+  }
+
+  iframe {
+    width: 100%;
+    height: 200px;
+  }
+}
